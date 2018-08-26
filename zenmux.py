@@ -8,7 +8,7 @@ Thanks to nmap.org
 import os
 
 #warna
-    BL = "\033[34;1m" # Blue light
+        BL = "\033[34;1m" # Blue light
 	YL = "\033[33;1m" # Yellow light
 	GG = "\033[32;1m" # Green light
 	WL = "\033[0;1m"  # White light
@@ -19,7 +19,7 @@ import os
 	G = "\033[32m"    # Green
 	W = "\033[0m"     # White
 	R = "\033[31m"    # Red
-    C = "\033[36m" # Cyan
+        C = "\033[36m" # Cyan
 def ban():
     print (BL+"o-----------------------------------0")
     print (BL+"| === |=== |\  | |\  /| |  | \\  //  |")
