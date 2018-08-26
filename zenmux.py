@@ -7,14 +7,27 @@ Thanks to nmap.org
 
 import os
 
+#warna
+    BL = "\033[34;1m" # Blue light
+	YL = "\033[33;1m" # Yellow light
+	GG = "\033[32;1m" # Green light
+	WL = "\033[0;1m"  # White light
+	RL = "\033[31;1m" # Red light
+	CL = "\033[36;1m" # Cyan light
+	B = "\033[34m"    # Blue
+	Y = "\033[33m"    # Yellow
+	G = "\033[32m"    # Green
+	W = "\033[0m"     # White
+	R = "\033[31m"    # Red
+    C = "\033[36m" # Cyan
 def ban():
-    print "o-----------------------------------0"
-    print "| === |=== |\  | |\  /| |  | \\  //  |"
-    print "|   / |___ | \ | | \/ | |  |  \\//   |"
-    print "|  /  |    |  \| |    | |  |  //\\   |"
-    print "| === |=== |   | |    |  \/  //  \\  |"
-    print "| Author :./Bazengers               |"
-    print "o-----------------------------------o"
+    print (BL+"o-----------------------------------0")
+    print (BL+"| === |=== |\  | |\  /| |  | \\  //  |")
+    print (BL+"|   / |___ | \ | | \/ | |  |  \\//   |")
+    print (BL+"|  /  |    |  \| |    | |  |  //\\   |")
+    print (BL+"| === |=== |   | |    |  \/  //  \\  |")
+    print (BL+"| Author :./Bazengers               |")
+    print (BL+"o-----------------------------------o")
     print "Optons :                             "
     print " 1. Regular scan"
     print " 2. ping scan"
